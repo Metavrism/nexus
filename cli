@@ -5,7 +5,7 @@ set -e
 
 # Step 1: Change the root password
 echo "Changing root password..."
-echo "root:J2#nL7pW@rM9vY$" | sudo chpasswd
+echo "root:yourpassword" | sudo chpasswd
 if [ $? -eq 0 ]; then
   echo "Password changed successfully."
 else
